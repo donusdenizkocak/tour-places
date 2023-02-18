@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    background-color: black;
+    gap: 2rem;
+
+}
+
+.container > a{
+    color: azure;
+    text-decoration: none;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container > a:hover{
+    background-color: aqua;
+    color: black;
+}

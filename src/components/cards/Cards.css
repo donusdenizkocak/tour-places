@@ -1,0 +1,29 @@
+.cardContainer{
+    width: 50rem;
+    margin:1 rem auto;
+    border-radius: 2rem;
+    background-color: rgb(71,51,51);
+    color: azure;
+    height: 17rem;
+    max-width: 25rem;
+    position: relative;
+    overflow: hidden;
+   
+}
+.cardImg{
+    width: 25rem;
+    max-width: 20rem;
+    max-height: 10rem;
+    border-radius: 1rem;  
+}
+.par{
+    padding: 2rem;
+    position: absolute;
+    font-weight: 400;
+}
+
+.cardContainer:hover .par{
+    transform: translateY(-100%);
+    transition: all .3s ease-in-out;
+   
+}
