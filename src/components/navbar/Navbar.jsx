@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Navbar.css"
 
+
 const Navbar = () => {
   return (
-    <div className='container'>
+    
+     
+      <div className='container'>
         <a href="#about">ABOUT</a>
         <a href="#foryou">FOR YOU</a>
         <a href="#services">SERVİCES</a>
@@ -11,6 +14,8 @@ const Navbar = () => {
         <a href="#vlog">VLOG</a>
         <a href="#contact">CONTACT</a>
     </div>
+
+    
   )
 }
  
