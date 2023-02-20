@@ -24,7 +24,7 @@
 }
 .container > a:hover{
     background-color: #7aacb3 ;
-    color: white !important;
+    color:black;
     border-radius: 10px;
     
 }
